@@ -1,5 +1,6 @@
 Vienna2csv::Application.routes.draw do
-  get "convert/index"
+get "convert/index"
+post "convert/upload"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -50,7 +51,7 @@ Vienna2csv::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+  root :to => "convert#index"
 
   # See how all your routes lay out with "rake routes"
 
