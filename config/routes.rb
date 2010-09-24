@@ -1,4 +1,6 @@
 Vienna2csv::Application.routes.draw do
+  get "convert/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
